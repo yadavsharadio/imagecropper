@@ -1,0 +1,51 @@
+body{
+  background-color: antiquewhite;
+}
+h1{
+    font-size: 50px;
+    font-family: monospace;
+    }
+    
+    label{
+    font-size: 15px;
+    
+    }
+    
+    .btn{padding: 10px 30px;
+    border:0px;
+    border-radius: 20px;
+    color:white;
+    background: red;
+    font-family: monospace;
+    font-size: 20px;
+    margin: 15px;
+    }
+    
+    .btn:hover{
+      border: 2px solid red;
+      color: red;
+    }
+    
+    .hide{
+      display: none;
+    }
+ 
+    #imagecrop{
+      background-color: white;
+      text-align:center;
+      margin: 100px auto;
+      font-family: monospace;
+      border:2px solid red;
+      border-radius:25px;
+      overflow: hidden;
+      }
+
+    .box{
+      padding: 0.5em;
+      margin: 0.5em;
+      width: 100%;
+    }
+    .box-2{
+      padding: 0.5em;
+      width: calc(100%/2-1em);
+    }
